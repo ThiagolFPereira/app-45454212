@@ -1,0 +1,76 @@
+.menu {
+    background: #3aa073;
+}
+.menu ul li a {color: #ffffff;}
+.footer {
+    background: #3aa073;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.item {
+    margin: 26px 0;
+    text-align: center;
+}
+h1 {
+    margin: 22px 0;
+    font-weight: bold;
+    font: 400 3.2em Roboto;
+    text-transform: uppercase;
+}
+.item-cart {
+    margin: 10px 0;
+    border-bottom: 1px solid #efefef;
+    padding: 8px;
+}
+.container-site {padding-bottom: 60px;}
+
+
+/* Errors */
+.has-error {color: red;}
+.has-error input {border: 1px solid red;}
+
+
+/* Dashboard */
+.menu-dashboard {
+    background: #23523d;
+}
+.menu-dashboard ul li a{color: #ffffff;}
+.nav-link{color: #ffffff;}
+.img-list{max-width: 100px;}
+.actions{margin: 12px 0;}
+a{color: #000000;}
+a:hover {text-decoration: none;}
+.dropdown-menu{
+    background-color: #3aa073;
+    color: #ffffff;
+}
+
+
+.pagination{
+    border-radius: 0 !important;
+    border: 1px solid #FFF !important;
+}
+.pagination>li{}
+.pagination>li>a, .pagination>li>span {
+    border-color: #31674f !important;
+    padding: 7px 14px;
+    margin: 6px;
+    background: #3aa073;
+    color: #f7911d;
+    font: 200 1.2em "Roboto";
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    background: #f7911d;
+    color: #FFF;
+    border-color: #b27f45 !important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{background-color: #FFF; border-color: #1b504a; color: #f7911d; border-color: #31674f !important;}
+.page-item.active .page-link{
+    color: #f7911d;
+    background-color: #ffffff;
+    border-color: #31674f;
+}

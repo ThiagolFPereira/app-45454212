@@ -1,0 +1,13 @@
+ok - Alterar View welcome.blade.php
+ok - Página 404
+ok - Url amigáveis
+ok - Separar Rotas
+ok - Logout auth/me
+ok - Favicon página
+ok - Remover debugs
+ok - Deploy
+ok - Bug Preloader Start
+ok - Adicionar Ícones
+ok - Criptografar Senha Update Profile
+ok - Melhorar Layout Projeto
+ok - Corrigir Bug StoreUpdateProduct max:10
