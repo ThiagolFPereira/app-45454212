@@ -61298,6 +61298,8 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
       this.product = {
         id: '',
         name: '',
+        sku: '',
+        quantity: '',
         description: '',
         category_id: ''
       };
@@ -62057,7 +62059,7 @@ var render = function() {
             staticClass: "form-control",
             attrs: {
               required: "",
-              type: "text",
+              type: "number",
               placeholder: "SKU do Produto"
             },
             domProps: { value: _vm.product.sku },
@@ -62092,7 +62094,7 @@ var render = function() {
               staticClass: "form-control",
               attrs: {
                 required: "",
-                type: "text",
+                type: "number",
                 placeholder: "Quantidade do Produto"
               },
               domProps: { value: _vm.product.quantity },
@@ -62392,7 +62394,9 @@ var render = function() {
                       _c("img", {
                         staticClass: "img-list",
                         attrs: {
-                          src: ["/storage/products/" + product.image],
+                          src: [
+                            "/storage/app/public/products/" + product.image
+                          ],
                           alt: product.name
                         }
                       })

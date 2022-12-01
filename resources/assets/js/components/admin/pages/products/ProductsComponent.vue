@@ -41,7 +41,7 @@
           <tr v-for="product in products.data" :key="product.id">
             <td>
               <div v-if="product.image">
-                <img :src="[`/storage/products/${product.image}`]" :alt="product.name" class="img-list">
+                <img :src="[`/storage/app/public/products/${product.image}`]" :alt="product.name" class="img-list">
               </div>
             </td>
             <td>{{ product.name }}</td>
@@ -153,6 +153,8 @@ export default {
       this.product = {
           id: '',
           name: '',
+          sku: '',
+          quantity: '',
           description: '',
           category_id: '',
       }

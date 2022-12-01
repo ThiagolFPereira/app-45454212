@@ -24,12 +24,12 @@
 
           <div :class="['form-group', {'has-error': errors.sku}]">
               <div v-if="errors.sku">{{ errors.sku[0] }}</div>
-              <input required type="text" v-model="product.sku" class="form-control" placeholder="SKU do Produto">
+              <input required type="number" v-model="product.sku" class="form-control" placeholder="SKU do Produto">
           </div>
 
           <div :class="['form-group', {'has-error': errors.quantity}]">
               <div v-if="errors.quantity">{{ errors.quantity[0] }}</div>
-              <input required type="text" v-model="product.quantity" class="form-control" placeholder="Quantidade do Produto">
+              <input required type="number" v-model="product.quantity" class="form-control" placeholder="Quantidade do Produto">
           </div>
 
           <div :class="['form-group', {'has-error': errors.category_id}]">
