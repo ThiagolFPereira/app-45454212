@@ -32,6 +32,8 @@
           <tr>
             <th width="150">Imagem</th>
             <th>Nome</th>
+            <th>SKU</th>
+            <th>Quantidade</th>
             <th width="250">Ações</th>
           </tr>
         </thead>
@@ -43,6 +45,8 @@
               </div>
             </td>
             <td>{{ product.name }}</td>
+            <td>{{ product.sku }}</td>
+            <td>{{ product.quantity }}</td>
             <td>
               <a href="#" @click.prevent="edit(product.id)" class="btn btn-info btn-left">
                 <icon name="pencil-square"></icon>
@@ -82,6 +86,8 @@ export default {
           id: '',
           name: '',
           description: '',
+          sku: '',
+          quantity: '',
           category_id: '',
       },
       update: false,

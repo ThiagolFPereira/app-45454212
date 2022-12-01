@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>Relatório de produtos</h1>
+        <h3>Quantidade de produtos adicionado ao carrinho</h3>
         <hr>
         <select class="form-control" v-model="year" @change="charts">
             <option :value="i" v-for="i in years" :key="i"> {{ i }} </option>
